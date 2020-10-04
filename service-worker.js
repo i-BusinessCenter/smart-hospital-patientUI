@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/smart-hospital-patientUI/precache-manifest.88d6ffb53e210932d682eb9bc549fd5f.js"
+  "/smart-hospital-patientUI/precache-manifest.5e3c465676170b807b9bfcedb8358cf2.js"
 );
 
 self.addEventListener('message', (event) => {
