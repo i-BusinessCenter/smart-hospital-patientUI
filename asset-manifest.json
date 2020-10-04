@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/smart-hospital-patientUI/static/css/main.5f361e03.chunk.css",
+    "main.js": "/smart-hospital-patientUI/static/js/main.f6844549.chunk.js",
+    "main.js.map": "/smart-hospital-patientUI/static/js/main.f6844549.chunk.js.map",
+    "runtime-main.js": "/smart-hospital-patientUI/static/js/runtime-main.87f42ed8.js",
+    "runtime-main.js.map": "/smart-hospital-patientUI/static/js/runtime-main.87f42ed8.js.map",
+    "static/js/2.fdb55326.chunk.js": "/smart-hospital-patientUI/static/js/2.fdb55326.chunk.js",
+    "static/js/2.fdb55326.chunk.js.map": "/smart-hospital-patientUI/static/js/2.fdb55326.chunk.js.map",
+    "index.html": "/smart-hospital-patientUI/index.html",
+    "precache-manifest.88d6ffb53e210932d682eb9bc549fd5f.js": "/smart-hospital-patientUI/precache-manifest.88d6ffb53e210932d682eb9bc549fd5f.js",
+    "service-worker.js": "/smart-hospital-patientUI/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/smart-hospital-patientUI/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.fdb55326.chunk.js.LICENSE.txt": "/smart-hospital-patientUI/static/js/2.fdb55326.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/smart-hospital-patientUI/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f42ed8.js",
+    "static/js/2.fdb55326.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.f6844549.chunk.js"
+  ]
+}
