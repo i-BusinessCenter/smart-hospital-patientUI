@@ -1,0 +1,37 @@
+.logform{
+    position:absolute;
+    top:20vh;
+    left:20vw;
+}
+#uid{
+    width: 60vw;/*常に送信ボタンの横幅を引いたサイズに動的に計算*/
+    line-height: 20px;
+    height: 48px;
+    padding: 14px 6px 0px 6px;/*文字がテキストエリアの中心になる様に隙間調整*/
+    border: 1px solid #ccc;
+    border-radius: 4px;/*角丸*/
+    text-align: left;/*文字を左寄せ*/
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
+    box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+
+
+}
+#pass{
+    width: 60vw;/*常に送信ボタンの横幅を引いたサイズに動的に計算*/
+    line-height: 20px;
+    height: 48px;
+    padding: 14px 6px 0px 6px;/*文字がテキストエリアの中心になる様に隙間調整*/
+    border: 1px solid #ccc;
+    border-radius: 4px;/*角丸*/
+    text-align: left;/*文字を左寄せ*/
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
+    box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+    
+    
+}
+#logbutton{
+    background-image: url("svg/loginbutton.svg");
+    width: 90px;
+    height: 45px;
+    
+}

@@ -1,0 +1,56 @@
+.bms_send {
+    background-color:rgb(255, 136, 136);/*タイムラインの色と同じにする*/
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 48px;
+    width: calc(100% - 10px);
+    padding: 4px;
+    position: absolute;
+    bottom: 0px;
+}
+    #bms_send_message{
+        width: calc(100% - 150px);/*常に送信ボタンの横幅を引いたサイズに動的に計算*/
+        line-height: 20px;
+        height: 48px;
+        padding: 14px 6px 0px 6px;/*文字がテキストエリアの中心になる様に隙間調整*/
+        border: 1px solid #ccc;
+        border-radius: 4px;/*角丸*/
+        text-align: left;/*文字を左寄せ*/
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
+        box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+        position: absolute;
+        bottom: 3px;
+        left: 5px;
+
+    }
+    #bms_send_btn {
+        width: 70px;
+        height: 48px;
+        line-height: 3em;
+        float: right;/*bms_sendに対して右寄せ*/
+        color: #fff;
+        border: 1px solid #bbb;
+        border-top: 24px solid transparent;
+        border-bottom: 24px solid transparent;
+        border-left: 50px solid #b6b6b6;
+        /*border-radius: 4px;角丸*/
+        box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+        position: absolute;
+        bottom: 3px;
+        right: 70px;
+    }
+    #bms_send_btn:hover {
+        border-top: 24px solid transparent;
+        border-bottom: 24px solid transparent;
+        border-left: 50px solid #009dff;
+        cursor: pointer;/*マウスポインタを当てた時に、カーソルが指の形になる*/
+    }
+    #bms_send_btn_cover {
+        float: right;
+        position: absolute;
+        bottom: 3px;
+        right: 70px;
+        width: 70px;
+        height: 48px;
+    }

@@ -1,0 +1,22 @@
+.login{   
+    width: auto;
+    height: auto;
+    margin-bottom: 58px;
+    text-align: center;
+    
+}
+#header{
+    width: 100vw;
+    height: 40px;
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    color:  #ffffff;
+    font-size: 24px;
+    background-color: #1e1bbd;
+    box-shadow: 0px 4px 3px rgba(78, 78, 78, 0.6);
+    padding: 7px 0px 0px 0px;
+    z-index: 1;
+}

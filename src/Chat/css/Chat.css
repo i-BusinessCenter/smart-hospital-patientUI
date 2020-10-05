@@ -1,0 +1,91 @@
+.app{   
+    width: auto;
+    height: auto;
+    margin-bottom: 58px;
+    text-align: center;
+    
+}
+#message_container{
+    width: auto;
+    height: auto;
+    background-color:rgb(231, 231, 231);
+    position: relative;
+}
+#header{
+    width: 100vw;
+    height: 40px;
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    color:  #ffffff;
+    font-size: 24px;
+    background-color: #1e1bbd;
+    box-shadow: 0px 4px 3px rgba(78, 78, 78, 0.6);
+    padding: 7px 0px 0px 0px;
+    z-index: 1;
+}
+    #back_to_login{
+        background-image: url("svg/previous2.svg");
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 5px;
+        left: 7px;
+        z-index: 2;
+    }
+.bms_send {
+    background-color:rgba(209, 234, 253, 0.884);/*タイムラインの色と同じにする*/
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 48px;
+    width: calc(100% - 10px);
+    padding: 4px;
+    position: absolute;
+    bottom: 0px;
+}
+    #bms_send_message{
+        width: calc(100% - 60px);/*常に送信ボタンの横幅を引いたサイズに動的に計算*/
+        line-height: 20px;
+        height: 48px;
+        padding: 14px 6px 0px 6px;/*文字がテキストエリアの中心になる様に隙間調整*/
+        border: 1px solid #ccc;
+        border-radius: 7px;/*角丸*/
+        text-align: left;/*文字を左寄せ*/
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
+        box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+        position: absolute;
+        bottom: 3px;
+        left: 5px;
+        font-size: 16px;
+    }
+
+    #bms_send_btn_cover {
+        background-image: url("svg/send_button1.svg");
+        width: 45px;
+        height: 35px;
+        position: absolute;
+        bottom: 10px;
+        right: 7px;
+    }
+    #bms_speech_to_text {/*現在不使用*/
+        background-image: url("svg/speech_button2.svg");
+        width: 35px;
+        height: 45px;
+        position: absolute;
+        bottom: 5px;
+        right: 35px;
+    }
+    button {
+        width: auto;
+        padding:0;
+        margin:0;
+        background:none;
+        border:0;
+        font-size:0;
+        line-height:0;
+        overflow:visible;
+        cursor:pointer;
+    }
